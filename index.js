@@ -1,4 +1,4 @@
-mydate = "July 24, 2022";
+mydate = "24 July 2022";
 const dateOfDay = new Date(mydate).getTime();
 
 let i = setInterval(function () {
@@ -14,8 +14,9 @@ let i = setInterval(function () {
 
   const timerContainer = `
   <div class="timer-container">
-        <h1 class="countdown-heading"><i class="far fa-calendar-alt"></i>${mydate}</h1>
+        <h1 class="countdown-heading"><i class="far fa-calendar-alt"></i>Wedding Day</h1>
         <div class="countdown-container">
+            <p class="container-item">Date <span class="container-span">${mydate}</span></p>
             <p class="container-item">Days <span class="container-span">${days}</span></p>
             <p class="container-item">Hours <span class="container-span">${hours}</span></p>
             <p class="container-item">Minutes <span class="container-span">${minutes}</span></p>

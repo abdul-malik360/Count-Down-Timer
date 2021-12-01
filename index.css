@@ -54,4 +54,8 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .countdown-heading {
+    font-size: 60px;
+    text-align: center;
+  }
 }
